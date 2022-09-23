@@ -7,6 +7,9 @@ public class Practice1Test {
 	//3
 	@Test
 	public void practice3Test() {
-		Reporter.log("TC 3 executed");
+		String browser = System.getProperty("b");
+		String url = System.getProperty("u");
+		System.out.println(browser);
+		System.out.println(url);
 	}
 }
